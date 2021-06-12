@@ -1,0 +1,73 @@
+body{
+    background-color: violet;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    margin-left: auto;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: blue;
+    font-weight: 600;
+}
+header h3{
+    color:sienna;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.search-option{
+    text-align: center;
+    
+}
+#food-container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+#food-detail img{
+    width: 300px;
+}
+#food-detail h3{
+    color:seagreen;
+    font-weight: 700;
+}
+#food-detail p{
+    color: yellow;
+}
+
+.food{
+    border: 2px dotted red;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+
+}
+.food img{
+    width: 300px;
+    border: 4px solid white;
+    border-radius: 10px;
+    
+}
+.food h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: lime;
+}
+.food p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:yellow;
+}
